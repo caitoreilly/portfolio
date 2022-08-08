@@ -24,6 +24,7 @@ header h1 a {
   font-size: 32px;
   font-weight: bold;
   color: #fe54cf;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
 }
 
 header a {
@@ -47,6 +48,7 @@ header nav ul li a {
   padding: 15px;
   font-weight: bolder;
   font-size: 2vw;
+  text-shadow: 0 0 10px rgba(254, 84, 207, 0.9);
 }
 
 header nav ul li a:hover {
@@ -103,7 +105,8 @@ footer {
 
 .content-info {
   font-size: 15px;
-  color: black;
+  font-weight: bolder;
+  color: #8799f4;
   line-height: 1.5;
   width: 80%;
   margin: 0 auto;
@@ -129,7 +132,7 @@ footer {
 }
 
 .contactinfo a {
-  color: #fe54cf;
+  color: #8799f4;
   text-decoration: none;
 }
 
