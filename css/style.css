@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url("../images/lightpurpleclouds.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+
+header h1 a {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fe54cf;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 15px;
+  font-weight: bolder;
+  font-size: 2vw;
+}
+
+header nav ul li a:hover {
+  background-color: #fe54cf;
+  color: white;
+  border-radius: 20px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+section {
+  padding: 40px;
+}
+
+footer {
+  background-color: #fe54cf;
+  color: white;
+  padding: 20px;
+}
+
+.hero {
+  background-image: url("../images/lightpurpleclouds.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position: 80%;
+  background-attachment: fixed;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.h2 {
+  text-align: right;
+}
+
+.content {
+  font-size: 20px;
+  color: #fe54cf;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  justify-content: center;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.content-info {
+  font-size: 15px;
+  color: black;
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.selfie {
+  height: 200px;
+  width: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.first-paragraph {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.second-paragraph {
+  display: flex;
+}
