@@ -85,12 +85,15 @@ footer {
   text-align: right;
 }
 
+.top-caption {
+  text-align: right;
+}
 .content {
   font-size: 20px;
   color: #fe54cf;
   display: flex;
-  margin: 20px auto;
-  padding: 10px;
+  margin: 5px auto;
+  padding: 8px;
   justify-content: center;
 }
 
@@ -115,14 +118,31 @@ footer {
   margin-bottom: 10px;
 }
 
-.first-paragraph {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+#work {
+  background-color: #b6c1f8;
+}
+.contactinfo {
+  text-align: center;
+  font-size: 18px;
+  color: #fe54cf;
+  margin: 10px;
 }
 
-.second-paragraph {
+.contactinfo a {
+  color: #fe54cf;
+  text-decoration: none;
+}
+
+.contactinfo a:hover {
+  background-color: #fe54cf;
+  color: white;
+  border-radius: 15px;
+}
+
+.contactinfo ul {
   display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
 }
