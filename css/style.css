@@ -124,10 +124,16 @@ footer {
 #work {
   background-color: #b6c1f8;
 }
+
+.runbuddypic {
+  height: 300px;
+  width: 500px;
+}
+
 .contactinfo {
   text-align: center;
   font-size: 18px;
-  color: #fe54cf;
+  color: #fe54cf
   margin: 10px;
 }
 
@@ -148,4 +154,12 @@ footer {
   justify-content: space-around;
   align-items: center;
   text-decoration: none;
+}
+
+img {
+    transition: all .2s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.5);
 }
