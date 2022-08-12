@@ -132,6 +132,7 @@ footer {
     height: 300px;
     width: 500px;
     position: relative;
+    padding: 10px;
 }
 
 .thumbnail:hover{
@@ -178,4 +179,73 @@ footer {
 
 .grow:hover{
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .hero-content {
+    width: 100%;
+    margin-left: -90px;
+  }
+
+  .content-info{
+    align-items: center;
+  }
+
+  .contactinfo{
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  footer{
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+ .hero-content {
+    width: 100%;
+    margin-left: -165px;
+  }
+
+  .content-info{
+    align-items: center;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+.hero-content {
+  width: 100%;
+  margin-left: -200px;
+}
+  .thumbnail {
+  width: 300px;
+}
+
+.contactinfo {
+  font-size: 10px;
+}
 }
