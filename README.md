@@ -19,6 +19,10 @@ My project was created with:
 - HTML
 - CSS
 
+### Screenshot
+
+Check out what my portfolio looks like ![here](/images/portfolio-screenshot.png)!
+
 #### Sources
 
 ---

@@ -129,8 +129,6 @@ footer {
 }
 
 .thumbnail{
-    height: 300px;
-    width: 500px;
     position: relative;
     padding: 10px;
 }
@@ -248,4 +246,14 @@ footer {
 .contactinfo {
   font-size: 10px;
 }
+}
+
+.pic-name{
+  text-align: center;
+  color: #fe54cf;
+  font-weight: bolder;
+}
+
+.other-work{
+  display: flex;
 }
